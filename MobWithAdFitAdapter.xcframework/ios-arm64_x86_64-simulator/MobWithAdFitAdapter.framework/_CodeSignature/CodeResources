@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		33Z3wsP8pZOcmAYHubHEdw93mAs=
+		HW9kd9AJG9YxY0okuaDGcJhAmtw=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W+Iontc+8iUSKzb51HgZ9ePRYHE=
+		UNRNVyA89RbAvV7pMxqn2CPYNPg=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wePXw2lWfu+3+fPgkIBI5Sr4SP0=
+		a1136Gm0kRx2Gh2Y1qIKc+rIj0o=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W+Iontc+8iUSKzb51HgZ9ePRYHE=
+		UNRNVyA89RbAvV7pMxqn2CPYNPg=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TJsfSf0SCTBSuffw1/aNfcsCbXI=
+		c5+gHV/eo0bOi6jQV34B9sMfNv0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MR4xxA2xBM5tokPWUA+f+dEa1ubT5cIay52hsA5PZaM=
+			NQ9fwi2Z5c7KgDEaKcYTf4rdbzwelwZHkwwLM11czDw=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oV3oVrm4GZ4awXqudffoM61AW75z51mHGYz1/dtVcxQ=
+			HUNPh45Sk5dPb+fRYt08tQJnJf8pTmkB2yfyBtLei+4=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MR4xxA2xBM5tokPWUA+f+dEa1ubT5cIay52hsA5PZaM=
+			NQ9fwi2Z5c7KgDEaKcYTf4rdbzwelwZHkwwLM11czDw=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bmpz0CykqdL9KWnWvp60m6kdTSPzjo/V36dSSzmD9v4=
+			il6ZvvFe9BEXp9pn8w63pKoOwQWjJ7Tuv701FVqbfG0=
 			</data>
 		</dict>
 	</dict>
