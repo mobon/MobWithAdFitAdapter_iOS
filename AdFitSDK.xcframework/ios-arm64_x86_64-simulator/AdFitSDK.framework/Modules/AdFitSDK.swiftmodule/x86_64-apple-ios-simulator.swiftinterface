@@ -14,6 +14,7 @@ import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Data*/
+import FoundationModels
 import OSLog
 import SceneKit
 import StoreKit
@@ -66,25 +67,6 @@ public enum ContentActionType {
   final public func hasContentAction(contentId: Swift.String, event: AdFitSDK.ContentActionType) -> Swift.Bool
   final public func clearAll()
   @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class QuickViewMediaView : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency final public var mediaType: AdFitSDK.AdFitMediaType {
-    @objc get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @_Concurrency.MainActor @preconcurrency final public var mainImage: UIKit.UIImage? {
-    @objc get
-  }
-  #endif
-  @_Concurrency.MainActor @preconcurrency @objc override final public var isAccessibilityElement: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc deinit
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BizBoardTemplate : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency public static var defaultBackgroundColor: UIKit.UIColor
@@ -243,46 +225,6 @@ extension AdFitSDK.BizBoardTemplate : AdFitSDK.AdFitNativeAdRenderable {
   @objc final public var descriptionFont: UIKit.UIFont
   @objc override dynamic public init()
   @objc deinit
-}
-public enum MultiAdTheme : Swift.String {
-  case light
-  case dark
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MultiNativeAdView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency final public func estimateHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @objc deinit
-}
-extension AdFitSDK.MultiNativeAdView {
-  @_Concurrency.MainActor @preconcurrency final public func setUpStyle(isDarkMode: Swift.Bool)
-}
-extension AdFitSDK.MultiNativeAdView : AdFitSDK.AdFitNativeAdRenderable {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func adTitleLabel() -> UIKit.UILabel?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func adCallToActionButton() -> UIKit.UIButton?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileNameLabel() -> UIKit.UILabel?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileIconView() -> UIKit.UIImageView?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func adMediaView() -> AdFitSDK.AdFitMediaView?
-  #endif
-  @_Concurrency.MainActor @preconcurrency @objc final public func isContainerClickable() -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency @objc final public func customInfoIconView() -> UIKit.UIImageView?
-  #endif
 }
 public struct LayoutGravity : Swift.OptionSet {
   public let rawValue: Swift.Int
@@ -567,6 +509,46 @@ final public class SuperboardPopUp {
   final public func present(_ rootViewController: UIKit.UIViewController? = nil)
   #endif
   @objc deinit
+}
+public enum MultiAdTheme : Swift.String {
+  case light
+  case dark
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MultiNativeAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency final public func estimateHeight(width: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+extension AdFitSDK.MultiNativeAdView {
+  @_Concurrency.MainActor @preconcurrency final public func setUpStyle(isDarkMode: Swift.Bool)
+}
+extension AdFitSDK.MultiNativeAdView : AdFitSDK.AdFitNativeAdRenderable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func adTitleLabel() -> UIKit.UILabel?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func adCallToActionButton() -> UIKit.UIButton?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileNameLabel() -> UIKit.UILabel?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func adProfileIconView() -> UIKit.UIImageView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func adMediaView() -> AdFitSDK.AdFitMediaView?
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc final public func isContainerClickable() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func customInfoIconView() -> UIKit.UIImageView?
+  #endif
 }
 public struct Feedback : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1129,6 +1111,25 @@ extension ObjectiveC.Selector : AdFitSDK.StringRepresentable {
   @objc final public func loadAd()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class QuickViewMediaView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var mediaType: AdFitSDK.AdFitMediaType {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency final public var mainImage: UIKit.UIImage? {
+    @objc get
+  }
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public var isAccessibilityElement: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+}
 @_Concurrency.MainActor @preconcurrency public struct BannerSizeModifier : SwiftUICore.ViewModifier {
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(unitSize: Swift.String, width: CoreFoundation.CGFloat? = nil)
@@ -1276,12 +1277,12 @@ extension AdFitSDK.ContentActionType : Swift.Hashable {}
 extension AdFitSDK.AdFitMediaType : Swift.Equatable {}
 extension AdFitSDK.AdFitMediaType : Swift.Hashable {}
 extension AdFitSDK.AdFitMediaType : Swift.RawRepresentable {}
-extension AdFitSDK.MultiAdTheme : Swift.Equatable {}
-extension AdFitSDK.MultiAdTheme : Swift.Hashable {}
-extension AdFitSDK.MultiAdTheme : Swift.RawRepresentable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Equatable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.Hashable {}
 extension AdFitSDK.AdFitVideoPlayPolicy : Swift.RawRepresentable {}
+extension AdFitSDK.MultiAdTheme : Swift.Equatable {}
+extension AdFitSDK.MultiAdTheme : Swift.Hashable {}
+extension AdFitSDK.MultiAdTheme : Swift.RawRepresentable {}
 extension AdFitSDK.PopUpAdTemplateView : Swift.Sendable {}
 extension AdFitSDK.SizeClassType.Width : Swift.Equatable {}
 extension AdFitSDK.SizeClassType.Width : Swift.Hashable {}
