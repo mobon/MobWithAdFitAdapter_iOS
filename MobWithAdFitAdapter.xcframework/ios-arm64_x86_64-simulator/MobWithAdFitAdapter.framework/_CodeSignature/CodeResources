@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		x9OamNY5TDZ/BDcux9BVqRv2ExI=
+		nTNy5YqkrNjqVq1CSzAv1Z3coI4=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UNRNVyA89RbAvV7pMxqn2CPYNPg=
+		I6b1ZY/LS13oBgCk44nnQuFhN98=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1mJPTuvpEaPN4YYeVRRr/zkkFF4=
+		BIVU6mfi4zsGdDLQIBAwh1iDoCk=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UNRNVyA89RbAvV7pMxqn2CPYNPg=
+		I6b1ZY/LS13oBgCk44nnQuFhN98=
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q/fcFsNL0oUG6cODJDyzUQitozk=
+		DYRGf0o35xqOvfIptnLiBROfmFo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NQ9fwi2Z5c7KgDEaKcYTf4rdbzwelwZHkwwLM11czDw=
+			VxJeoxtNta8XzkmY7J232rCpiXNciI6V2p9GWtUqJjQ=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EcVRxiigzCYixE8/SLjpx4WRSLvP1PFWOUlFtPoIARQ=
+			XJHpy0dGDPuuZiU9heWxnAIB/9b5uhPETZ4G2ZkjZOs=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NQ9fwi2Z5c7KgDEaKcYTf4rdbzwelwZHkwwLM11czDw=
+			VxJeoxtNta8XzkmY7J232rCpiXNciI6V2p9GWtUqJjQ=
 			</data>
 		</dict>
 		<key>Modules/MobWithAdFitAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fY/PswOZgj9GpuJlR4J4/fTOv0FCsL2UsWMBGLKj9q4=
+			DOoOrfi8J1CDrSiEUrPOh6ev8cr2E8M8kJLMSyBi3IU=
 			</data>
 		</dict>
 	</dict>
