@@ -15,7 +15,7 @@ let package = Package(
    ],
     dependencies: [
         .package(url: "https://github.com/mobon/MobWithAdSDK_SPM.git", .upToNextMinor(from: "1.3.39")),
-        .package(url: "https://github.com/adfit/adfit-spm.git", .upToNextMinor(from: "3.21.24"))
+        .package(url: "https://github.com/adfit/adfit-spm.git", .upToNextMinor(from: "3.22.7"))
     ],
     targets: [
         .binaryTarget(
