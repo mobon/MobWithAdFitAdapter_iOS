@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "MobWithAdFitAdapter",
     platforms: [
-        .iOS("15.6")
+        .iOS(.v15)
     ],
     products: [
        .library(
